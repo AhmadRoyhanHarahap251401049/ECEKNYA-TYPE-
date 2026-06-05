@@ -55,7 +55,6 @@ QWidget *MainWindow::createHomePage()
     QVBoxLayout *root = new QVBoxLayout(page);
     root->setContentsMargins(40, 20, 40, 20);
 
-    // ── Navbar ───────────────────────────────────────────────
     QHBoxLayout *navbar = new QHBoxLayout;
 
     QLabel *logo = new QLabel("Eceknya Type");
